@@ -9,6 +9,8 @@ module.exports = {
     PASSWORD: pwd,
     DB: db,
     dialect: "postgres",
+    ssl: true,
+    port: 5432,
     pool: {
         max: 5,
         min: 0,
